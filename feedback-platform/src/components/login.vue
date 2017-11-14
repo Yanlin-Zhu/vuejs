@@ -16,7 +16,7 @@
 	      </div>
 	      <div class="input-group input-group-sm">
 	        <span class="input-group-addon glyphicon glyphicon-lock"></span>
-	        <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
+	        <input type="Password" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
 	      </div>
 	      <div class="button-container">
             <router-link class="login-button"  tag = "input" value="登 录":to = "{path:'functi'}"></router-link>
