@@ -33,6 +33,25 @@
 				  <input type="text" class="form-control" placeholder="请输入验证码" aria-describedby="sizing-addon3">
 				  <span>呦吼吼csdddddddddddddhhhhhhhhhhhhhhddddddd</span>
 				</div>
+				<div class="input-group input-group-md">
+				  <span class="input-group-addon"><span class = "text-danger">*</span>角色选择：</span>
+				  <div class="radioBox">
+				  	   <input name = "role" type="radio" id = "a1">
+					  <label for="a1">客户</label>
+					  <input name = "role" type="radio" id = "a2">
+					  <label for="a2">客服</label>
+					  <input name = "role" type="radio" id = "a3">
+					  <label for="a3">经理</label>
+					  <input name = "role" type="radio" id = "a4">
+					  <label for="a4">技术</label>
+				  </div>
+				  <span>呦吼吼</span>
+				</div>
+				<div class="input-group input-group-md">
+				  <span class="input-group-addon">员工编码：</span>
+				  <input type="text" class="form-control" placeholder="请输入验证码" aria-describedby="sizing-addon3">
+				  <span>呦吼吼</span>
+				</div>
 			</div>
 		</div>
 		<div class="button-container">
@@ -56,14 +75,12 @@
   box-shadow: none;
   background-color: #fff;
 }
-.input-group input{
-  margin-right: 50px;
-  border-bottom: 1px solid #0090ff;
-}
 .input-group .input-group-addon{
   width: 100px;
 }
-.input-group input{
+.input-group [type = text]{
+ 	margin-right: 50px;
+	border-bottom: 1px solid #0090ff;
 	width: 200px;
 }
 .container-fluid {
@@ -100,5 +117,9 @@
 .navbar{
 	margin-bottom: 50px;
 	box-shadow: 0px 10px 50px #eee;
+}
+.radioBox{
+	display: inline-block;
+	width: 250px;
 }
 </style>
