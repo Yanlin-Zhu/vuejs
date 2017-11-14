@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
+import functi from '@/components/functi'
 import login from '@/components/login'
 import registration from '@/components/registration'
 
@@ -13,6 +14,11 @@ export default new Router({
       path: '/hello',
       name: 'Hello',
       component: HelloWorld
+    },
+    {
+      path: '/functi',
+      name: 'functi',
+      component: functi
     },
     {
       path: '/',

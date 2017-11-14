@@ -19,7 +19,7 @@
 	        <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
 	      </div>
 	      <div class="button-container">
-	          <input class="login-button" type="submit" value="登 录">
+            <router-link class="login-button"  tag = "input" value="登 录":to = "{path:'functi'}"></router-link>
 	          <span class="fr">
 	              <router-link tag = "span" :to="{path:'registration'}">注册</router-link>
 	              <span class="login-links split">|</span>
@@ -135,6 +135,7 @@
     color: #fff;
     background-color: #0090ff;
     cursor: pointer;
+    text-align: center;
 }
 #contt .button-container .login-button:hover{
     background-color: #00a2ff;

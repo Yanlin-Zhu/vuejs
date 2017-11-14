@@ -97,4 +97,8 @@
 	cursor: pointer;
 	margin: 0 auto;
 }
+.navbar{
+	margin-bottom: 50px;
+	box-shadow: 0px 10px 50px #eee;
+}
 </style>
