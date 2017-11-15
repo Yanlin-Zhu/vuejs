@@ -3,16 +3,11 @@
 		<div class="classification">
 			<p>
 				<i class = "text-danger">*</i>问题类型：
-				<span>产品功效问题</span>
-				<span>产品质量问题</span>
-				<span>产品包装问题</span>
+				<span class = "c1" v-for="(item , index) in items1" :class="{myActive:items1[index].isMyActive}" @click="addActive1(index)">{{item.message}}</span>
 			</p>
 			<p>
 				<i class = "text-danger">*</i>反馈分类：
-				<span>投诉</span>
-				<span>抱怨</span>
-				<span>建议</span>
-				<span>表扬</span>
+				<span class = "c2" v-for="(item , index) in items2" :class="{myActive:items2[index].isMyActive}" @click="addActive2(index)">{{item.message}}</span>
 			</p>
 		</div>
 		<div class="discribe">
@@ -23,12 +18,40 @@
 			<p><i class = "text-danger">*</i>上传图片：</p>
 			<input id = "loadBox" type="file" name="" @change="updataFile">
 		</div>
+		<button type="button" class="btn btn-primary"> 提 交 </button>
 	</div>
 </template>
 <script type="text/javascript">
 	export default {
 		name:'subm',
+		data(){
+			return {
+				items1:[
+					{isMyActive:false,message:'产品功效问题'},
+					{isMyActive:false,message:'产品质量问题'},
+					{isMyActive:false,message:'产品包装问题'}
+				],
+				items2:[
+					{isMyActive:false,message:'投诉'},
+					{isMyActive:false,message:'抱怨'},
+					{isMyActive:false,message:'建议'},
+					{isMyActive:false,message:'表扬'}
+				]
+			}
+		},
 		methods:{
+			addActive1(index){
+				$.each(this.items1,function(ind,obj){
+					obj.isMyActive = false;
+				})
+				this.items1[index].isMyActive = true;
+			},
+			addActive2(index){
+				$.each(this.items2,function(ind,obj){
+					obj.isMyActive = false;
+				})
+				this.items2[index].isMyActive = true;
+			},
 			// http://blog.csdn.net/qingyjl/article/details/52003567
 			updataFile(e){
 				console.log(e)
@@ -78,6 +101,10 @@
 	cursor:pointer;
 }
 .classification p span:hover{
+	color: #fff;
+	background-color: #509ee2;
+}
+.myActive{
 	color: #fff;
 	background-color: #509ee2;
 }
