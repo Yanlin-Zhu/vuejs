@@ -1,6 +1,6 @@
 <template>
-<div id="functi">
-	<el-header style = "border-bottom: 1px solid #409eff;">
+<div id="detail">
+    <el-header style = "border-bottom: 1px solid #409eff;">
 	<nav class="navbar" >
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -20,31 +20,33 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
     </el-header>
-		<el-container>
+    <el-container>
         <el-aside width="220px"  style="height:100%; border-right: 2px solid #409eff;">
             <nav2></nav2>
         </el-aside>
         <el-container style="height:100%; overflow:auto;">
             <el-main>
-                <subm></subm>
+                <detailcenter></detailcenter>
             </el-main>
         </el-container>
     </el-container>
 </div>
 </template>
 <script>
-import subm from "./base/subm.vue";
 import nav2 from "./base/nav2.vue";
+import detailcenter from "./base/detailcenter.vue";
 export default {
-  name: "functi",
+  created() {},
+  name: "detail",
   components: {
-    subm,
-    nav2
+    nav2,
+    detailcenter
   }
 };
 </script>
+
 <style scoped>
-#functi {
+#detail {
   height: 100%;
 }
 .el-header {
@@ -52,5 +54,10 @@ export default {
 }
 .el-container {
   height: 90%;
+}
+h1 {
+  margin-top: 200px;
+  font-size: 40px;
+  text-align: center;
 }
 </style>

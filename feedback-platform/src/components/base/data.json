@@ -1,0 +1,298 @@
+{
+"tableData":
+  [
+  {
+   "case_id":"1",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-18",
+   "submit_person":"左浩然",
+   "now_person":"高寒",
+   "process":"0",
+   "status":"1"
+  },
+  {
+   "case_id":"2",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-18",
+   "submit_person":"高浩然",
+   "now_person":"许寒",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"3",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-13",
+   "submit_person":"李然",
+   "now_person":"许云",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"4",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-13",
+   "submit_person":"李凤",
+   "now_person":"张云",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"5",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-13",
+   "submit_person":"马如玉",
+   "now_person":"张小天",
+   "process":"0",
+   "status":"1"
+  },
+{
+   "case_id":"6",
+   "title": "质量有瑕疵",
+   "submit_time":"2018-03-13",
+   "submit_person":"张菲菲",
+   "now_person":"张涵",
+   "process":"0",
+   "status":"1"
+  },
+  {
+   "case_id":"7",
+   "title": "质量有瑕疵",
+   "submit_time":"2018-03-13",
+   "submit_person":"宋丹丹",
+   "now_person":"张子航",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"8",
+   "title": "质量有瑕疵",
+   "submit_time":"2018-03-13",
+   "submit_person":"宋紫风",
+   "now_person":"李航",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"9",
+   "title": "质量有瑕疵",
+   "submit_time":"2018-03-13",
+   "submit_person":"刘芸",
+   "now_person":"李蛋",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"10",
+   "title": "质量有瑕疵",
+   "submit_time":"2018-03-13",
+   "submit_person":"刘帅",
+   "now_person":"李全蛋",
+   "process":"0",
+   "status":"1"
+  },
+{
+   "case_id":"11",
+   "title": "牙刷材质太硬",
+   "submit_time":"2018-03-13",
+   "submit_person":"张建民",
+   "now_person":"李大蛋",
+   "process":"0",
+   "status":"1"
+  },
+  {
+   "case_id":"12",
+   "title": "牙刷外形不美观",
+   "submit_time":"2018-03-18",
+   "submit_person":"李长春",
+   "now_person":"李三蛋",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"13",
+   "title": "牙刷外形不美观",
+   "submit_time":"2018-03-13",
+   "submit_person":"李梦蝶",
+   "now_person":"李四蛋",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"14",
+   "title": "牙刷材质太硬",
+   "submit_time":"2018-03-13",
+   "submit_person":"刘怪",
+   "now_person":"李五蛋",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"15",
+   "title": "牙刷材质太硬",
+   "submit_time":"2018-03-13",
+   "submit_person":"林巧巧",
+   "now_person":"李六蛋",
+   "process":"0",
+   "status":"1"
+  },
+{
+   "case_id":"16",
+   "title":"牙刷质量不过关",
+   "submit_time":"2018-03-13",
+   "submit_person":"宁采臣",
+   "now_person":"小倩",
+   "process":"0",
+   "status":"1"
+  },
+  {
+   "case_id":"17",
+   "title": "牙刷质量不过关",
+   "submit_time":"2018-03-13",
+   "submit_person":"任夹馅",
+   "now_person":"苟步理",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"18",
+   "title": "牙刷材质太硬",
+   "submit_time":"2018-03-13",
+   "submit_person":"包青云",
+   "now_person":"公孙风",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"19",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-13",
+   "submit_person":"包大任",
+   "now_person":"展堂",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"20",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-13",
+   "submit_person":"吕轻侯",
+   "now_person":"郭芙蓉",
+   "process":"0",
+   "status":"1"
+  },
+{
+   "case_id":"21",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-13",
+   "submit_person":"莫小贝",
+   "now_person":"李大嘴",
+   "process":"0",
+   "status":"1"
+  },
+  {
+   "case_id":"22",
+   "title": "牙刷质量不过关",
+   "submit_time":"2018-03-13",
+   "submit_person":"金镶玉",
+   "now_person":"佟湘玉",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"23",
+   "title": "牙刷质量不过关",
+   "submit_time":"2018-03-13",
+   "submit_person":"公孙武龙",
+   "now_person":"姬无病",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"24",
+   "title": "牙刷材质过硬",
+   "submit_time":"2018-03-13",
+   "submit_person":"姬无命",
+   "now_person":"杨过",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"25",
+   "title": "牙刷材质过硬",
+   "submit_time":"2018-03-13",
+   "submit_person":"小龙女",
+   "now_person":"小聋女",
+   "process":"0",
+   "status":"1"
+  },
+{
+   "case_id":"26",
+   "title": "牙刷掉毛",
+   "submit_time":"2018-03-13",
+   "submit_person":"秦晓晓",
+   "now_person":"柳江河",
+   "process":"0",
+   "status":"1"
+  },
+  {
+   "case_id":"27",
+   "title": "牙刷味道不好闻",
+   "submit_time":"2018-03-18",
+   "submit_person":"蒋依云",
+   "now_person":"郭芙",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"28",
+   "title": "牙刷质地偏稀",
+   "submit_time":"2018-03-13",
+   "submit_person":"曹建国",
+   "now_person":"郭美丽",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"29",
+   "title": "漱口水效果一般",
+   "submit_time":"2018-03-13",
+   "submit_person":"岳月",
+   "now_person":"郭珊珊",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"30",
+   "title": "漱口水效果一般",
+   "submit_time":"2018-03-13",
+   "submit_person":"刘贤",
+   "now_person":"王建国",
+   "process":"0",
+   "status":"1"
+  },
+ {
+   "case_id":"31",
+   "title": "漱口水外观一般",
+   "submit_time":"2018-03-13",
+   "submit_person":"刘大贤",
+   "now_person":"王大国",
+   "process":"0",
+   "status":"1"
+  }
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+  ]
+}
+

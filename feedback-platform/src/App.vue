@@ -15,7 +15,8 @@ export default {
   //   document.body.appendChild(s);
   //   var hash = md5("111111");
   // },
-  name: 'app'
-}
+  name: "app"
+};
 </script>
+
 

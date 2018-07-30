@@ -1,5 +1,5 @@
 <template>
-<div id="functi">
+<div id="listpage">
 	<el-header style = "border-bottom: 1px solid #409eff;">
 	<nav class="navbar" >
 	  <div class="container-fluid">
@@ -26,25 +26,25 @@
         </el-aside>
         <el-container style="height:100%; overflow:auto;">
             <el-main>
-                <subm></subm>
+                <tablelist></tablelist>
             </el-main>
         </el-container>
     </el-container>
 </div>
 </template>
 <script>
-import subm from "./base/subm.vue";
+import tablelist from "./base/tablelist.vue";
 import nav2 from "./base/nav2.vue";
 export default {
-  name: "functi",
+  name: "listpage",
   components: {
-    subm,
+    tablelist,
     nav2
   }
 };
 </script>
 <style scoped>
-#functi {
+#listpage {
   height: 100%;
 }
 .el-header {
