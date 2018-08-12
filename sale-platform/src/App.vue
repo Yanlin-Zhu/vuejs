@@ -32,7 +32,7 @@
     </this-dialog>
   </div>
 </template>
-
+  
 <script>
 import ThisDialog from './components/Dialog'
 import LoginForm from './parts/LoginForm'
